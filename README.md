@@ -4,13 +4,13 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This app lists top (most starred) 30 Github Repositories of all time.
+It shows Repository Name, Description, Language, Stargazers Count, Forks Count and Owner's name of every Repo.
 
-A few resources to get you started if this is your first Flutter project:
+By clicking on repository name, the corrosponding repo will be opened on the default browser.
+To access owner's profile for any particular repository, one can simply click on the owner name for the repo.
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+To run this app:
+Unzip file and run `cd trend_repos`
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+then `flutter run --release`
